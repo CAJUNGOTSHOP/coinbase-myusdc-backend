@@ -1,7 +1,7 @@
 import "dotenv/config";
+import express from "express";
 import middlewares from "./middlewares";
 import router from "./routes";
-import express from "express";
 import { coinbase, database } from "./services";
 import { ServerSigner } from "@coinbase/coinbase-sdk";
 

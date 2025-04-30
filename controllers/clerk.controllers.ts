@@ -43,5 +43,3 @@ export async function handleWebhook(req: Request, res: Response, next: NextFunct
         next(error);
     }
 }
-
-
